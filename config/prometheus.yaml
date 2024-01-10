@@ -21,7 +21,7 @@ scrape_configs:
 - job_name: 'pushgateway'
   honor_labels: true
   static_configs:
-  - targets: ['pushgateway:9091']
+  - targets: ['pushgateway:9094']
   basic_auth:
     username: 'admin' # change
     password: 'admin' # change # or use password_file instead (docker secrets)
